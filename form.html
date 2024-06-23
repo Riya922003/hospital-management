@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management E-commerce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color:  rgb(114, 188, 211);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            background-color: white;
+        }
+        .product h2 {
+            margin: 0 0 1rem 0;
+        }
+        .product-details {
+            display: flex;
+            align-items: center;
+        }
+        .product-details select, .product-details input {
+            margin-left: 1rem;
+            padding: .5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .quantity-control {
+            display: flex;
+            align-items: center;
+            margin-left: 1rem;
+        }
+        .quantity-control button {
+            background-color:  rgb(114, 188, 211);
+            color: white;
+            padding: .5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .quantity-control button:hover {
+            background-color: #45a049;
+        }
+        .quantity-control input {
+            width: 50px;
+            text-align: center;
+            margin: 0 5px;
+        }
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: .5rem;
+        }
+        .form-group input, .form-group textarea, .form-group select {
+            width: 100%;
+            padding: .5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .form-group button {
+            background-color:  rgb(114, 188, 211);
+            color: white;
+            padding: .5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <script>
+        function increaseValue(id) {
+            var value = parseInt(document.getElementById(id).value, 10);
+            value = isNaN(value) ? 0 : value;
+            value++;
+            document.getElementById(id).value = value;
+        }
+
+        function decreaseValue(id) {
+            var value = parseInt(document.getElementById(id).value, 10);
+            value = isNaN(value) ? 0 : value;
+            value = value > 0 ? value - 1 : 0;
+            document.getElementById(id).value = value;
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>Hospital Management E-commerce</h1>
+    </div>
+    <div class="container">
+        <!-- Product List -->
+        <div class="product">
+            <h2>Medical Equipment</h2>
+            <p>High-quality medical equipment for hospitals and clinics.</p>
+            <div class="product-details">
+               
+                <select>
+                    <option value="stethoscope">Stethoscope</option>
+                    <option value="thermometer">Thermometer</option>
+                    <option value="blood-pressure-monitor">Blood Pressure Monitor</option>
+                </select>
+                <div class="quantity-control">
+                    <button onclick="decreaseValue('quantity1')">-</button>
+                    <input type="text" id="quantity1" value="1" readonly>
+                    <button onclick="increaseValue('quantity1')">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <h2>Pharmaceutical Supplies</h2>
+            <p>Essential pharmaceutical supplies for medical professionals.</p>
+            <div class="product-details">
+             
+                <select>
+                    <option value="antibiotics">Antibiotics</option>
+                    <option value="pain-relievers">Pain Relievers</option>
+                    <option value="antiseptics">Antiseptics</option>
+                </select>
+                <div class="quantity-control">
+                    <button onclick="decreaseValue('quantity2')">-</button>
+                    <input type="text" id="quantity2" value="1" readonly>
+                    <button onclick="increaseValue('quantity2')">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <h2>Medicines</h2>
+            <p>Important medicines on your door step.</p>
+            <div class="product-details">
+               
+                <select>
+                    <option value="hospital-bed">Hospital Bed</option>
+                    <option value="wheelchair">Wheelchair</option>
+                    <option value="examination-table">Examination Table</option>
+                </select>
+                <div class="quantity-control">
+                    <button onclick="decreaseValue('quantity3')">-</button>
+                    <input type="text" id="quantity3" value="1" readonly>
+                    <button onclick="increaseValue('quantity3')">+</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Order Form -->
+        <h2>Place an Order</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Shipping Address</label>
+                <textarea id="address" name="address" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="product">Product</label>
+                <select id="product" name="product" required>
+                    <option value="medical-equipment">Medical Equipment</option>
+                    <option value="pharmaceutical-supplies">Pharmaceutical Supplies</option>
+                    <option value="hospital-furniture">Hospital Furniture</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit">Place Order</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
