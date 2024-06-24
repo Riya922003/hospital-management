@@ -29,6 +29,12 @@ html{
     margin: 0;
     padding: 0;
 }
+#logo {
+    border-radius: 50%;
+    width: 100px; /* Adjust width as necessary */
+    height: 100px; /* Adjust height as necessary */
+    object-fit: cover; /* Ensure the image fits well within the circle */
+}
 
 ul, ol{
     list-style-type: none;
