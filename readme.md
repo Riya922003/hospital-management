@@ -1,6 +1,6 @@
 # Hospital Management Website
 
-Welcome to our Hospital Management Website! This project is a responsive front-end template designed to provide an intuitive and user-friendly experience for managing hospital-related activities. Below is an overview of the different sections of the website and what they offer.
+Welcome to our Mdedicure Website! This project is a responsive front-end template designed to provide an intuitive and user-friendly experience for managing hospital-related activities. Below is an overview of the different sections of the website and what they offer.
 
 ## Sections
 
