@@ -8,7 +8,7 @@ Welcome to our Mdedicure Website! This project is a responsive front-end templat
 - **Services:** The Our Services section details the various medical services offered by the hospital. This includes information on departments such as Cardiology, Neurology, Pediatrics, and more. Each service is described in detail, providing patients with a clear understanding of the care they can receive.
   
 - **About-Us:** The About Us page provides background information about the hospital, including its history, mission, vision, and values. It also introduces key staff members and outlines the hospital's commitment to providing high-quality healthcare.
-- 
+  
 - **Customer-Review:** The Customer Reviews section features testimonials from patients who have received treatment at the hospital. This section helps build trust and credibility by showcasing real experiences from satisfied customers.
   
 - **Login/sign-up:** These pages allow users to create an account and log in to access personalized features of the website. Registered users can book appointments, view medical records, and interact with healthcare providers.
