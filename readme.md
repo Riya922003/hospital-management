@@ -43,6 +43,17 @@ If you like this project, feel free to fork and use it in your own projects. Con
 ## Click here to see the live demo of the project 
 <a href="https://riya922003.github.io/hospital-management/">see demo</a>
 
+## Images
+<div>
+   <img src="https://i.ibb.co/hgwF2FT/hospital1.jpg"></img>
+   <img src="https://i.ibb.co/0s9RRZN/hospital2.jpg"></img>
+</div>
+<div>
+   <img src="https://i.ibb.co/4p4H4gb/hospital3.jpg"></img>
+<img src="https://i.ibb.co/M2XX1Gs/hospital4.jpg"></img>
+</div>
+
+
 <img height="120" width="100%" src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/marquee.svg" />
 
   
