@@ -41,7 +41,7 @@ If you like this project, feel free to fork and use it in your own projects. Con
 2. Run Index.html
 
 ## Click here to see the live demo of the project 
-<a href="">see demo</a>
+<a href="https://riya922003.github.io/hospital-management/">see demo</a>
 
 <img height="120" width="100%" src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/marquee.svg" />
 
