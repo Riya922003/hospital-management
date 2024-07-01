@@ -37,6 +37,10 @@ If you like this project, feel free to fork and use it in your own projects. Con
 ## Click here to see the live demo of the project 
 <a href="https://riya922003.github.io/hospital-management/">see demo</a>
 
+<div align="center">
+    <img src="https://github.com/Riya922003/Riya922003/blob/main/assets/final.gif"/>
+</div>
+
 ## Images
 <div>
    <img width=390 src="https://i.ibb.co/hgwF2FT/hospital1.jpg"></img>
