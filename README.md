@@ -38,7 +38,7 @@ If you like this project, feel free to fork and use it in your own projects. Con
 <a href="https://riya922003.github.io/hospital-management/">see demo</a>
 
 <div align="center">
-    <img src="https://github.com/Riya922003/Riya922003/blob/main/assets/final.gif"/>
+    <img src="https://github.com/Riya922003/hospital-management/blob/main/medicurefinalgif.gif"/>
 </div>
 
 ## Images
